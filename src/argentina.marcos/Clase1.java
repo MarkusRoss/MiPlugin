@@ -26,6 +26,7 @@ public class Clase1 implements CommandExecutor {
             HashMap<Integer, ItemStack> aa = new HashMap<>();
             System.out.println("Hello github");
             System.out.println("Hello github2");
+            System.out.println("Hello github3");
         }
         return false;
     }
