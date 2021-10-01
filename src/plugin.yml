@@ -1,0 +1,9 @@
+name: MiPlugin
+version: 0.1
+author: Marcos
+main: argentina.marcos.MiPlugin
+api-version: 1.16
+commands:
+  MiPlugin:
+      description: Prueba si funciona
+      usage: /<command>
