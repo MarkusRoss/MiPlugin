@@ -22,8 +22,9 @@ public class Clase1 implements CommandExecutor {
         if (commandSender instanceof Player){
             Player player = (Player) commandSender;
             Location ubic = ((Player) commandSender).getLocation();
-            getServer().getWorld(((Player) commandSender).getWorld().getName()).playSound(ubic, Sound.E,1,1);
+            getServer().getWorld(((Player) commandSender).getWorld().getName()).playSound(ubic, Sound.AMBIENT_SOUL_SAND_VALLEY_ADDITIONS,1,1);
             HashMap<Integer, ItemStack> aa = new HashMap<>();
+            System.out.println("Hello github");
         }
         return false;
     }
