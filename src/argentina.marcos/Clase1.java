@@ -27,8 +27,7 @@ public class Clase1 implements CommandExecutor {
             System.out.println("Hello github");
             System.out.println("Hello github2");
             System.out.println("Hello github3");
-            System.out.println("Nueva rama");
-            System.out.println("Nueva rama2");
+            System.out.println("prueba jere");
         }
         return false;
     }
